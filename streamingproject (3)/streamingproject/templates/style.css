@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", SansSerif, serif;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.mainDiv {
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -65px;
+    /*margin-top: 3%;*/
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.28);
+}
+
+.Label {
+    font-family: 'Open Sans Light', SansSerif, serif;
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #f2f2f2;
+}
+
+.topTable {
+    width: 90%;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: rgba(0, 0, 0, 0.7);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.td1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.textTable {
+    width: 90%;
+    margin: 20px 5.5%;
+}
+
+.pCommon {
+}
+
+.pId {
+    text-align: left;
+    padding-left: 50%;
+}
+
+.pDate {
+    alignment: center;
+    padding-left: 20%;
+    width: 150px;
+    margin-left: 8%;
+    margin-right: -10px;
+}
+
+.pTime {
+    text-align: right;
+    margin-left: 10%;
+    margin-right: 25px;
+}
+
+.pStatus {
+    padding-left: 62%;
+}
+
+.button {
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    height: 40px;
+    width: 215px;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background-color: #d9d9d9;
+}
+
+.button:active {
+    background-color: #ababab;
+}
+
+.butLogout {
+    background-color: #f1f1f1;
+    padding: 4px;
+    margin: 40px 97% 20px 3.5%;
+    border: 1px solid rgba(77, 77, 77, 0.83);
+    border-radius: 10px;
+}
+
+.butLogout:hover {
+    background-color: #d9d9d9;
+}
+
+.butLogout:active {
+    background-color: #ababab;
+}
+
+.orderByButton {
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgba(77, 77, 77, 0.83);
+    border-radius: 20px;
+    height: 25px;
+}
+
+.orderByButton:hover {
+    background-color: #d9d9d9;
+}
+
+.orderByButton:active {
+    background-color: #ababab;
+}
+
+.orderByImg {
+    display: inline-block;
+    height: 20px;
+}
+
+.showDateRange {
+    border: 1px solid rgba(77, 77, 77, 0.83);
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #f1f1f1;
+}
+
+.showDateRange:hover{
+    background-color: #d9d9d9;
+}
+
+.showDateRange:active{
+    background-color: #ababab;
+}
+
+.datePicker{
+    padding: 3px;
+}
+
