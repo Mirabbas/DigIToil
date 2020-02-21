@@ -11,8 +11,9 @@
 # Guide 
 ##### 1)python manage.py runserver   
 ##### 2)open browser and go to http://127.0.0.1:8000/stream/screen/  
-##### 3)    * login a  
-#####       * pass 1  
+##### Login as
+* login a  
+* pass 1  
 ##### 4)DONE!  
   
 ![Alt text](https://github.com/kremlev404/DjangoStream/blob/master/demo.gif "Result")
