@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Image demo",
+            "type": "python",
+            "request": "launch",
+            "program": "demos/person-recognition-image-demo.py",
+            "console": "integratedTerminal",
+            "args": [
+                "images/2.jpg"
+            ]
+        },
+        {
+            "name": "Python: (integratedTerminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: (externalTerminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "externalTerminal"
+        }
+    ]
+}
