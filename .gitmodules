@@ -1,3 +1,3 @@
-[submodule "person-processing"]
-	path = person-processing
-	url = https://github.com/bitlowsky/person-processing.git
+[submodule "person-recognition-openvino"]
+	path = person-recognition-openvino
+	url = https://github.com/bitlowsky/person-recognition-openvino.git
